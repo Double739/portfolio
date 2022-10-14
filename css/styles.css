@@ -41,7 +41,20 @@ h3{
 }
 
 a{
-  color: #293462;
+  color: #FAF7F0;
+}
+
+hr{
+  border-style: dotted;
+  border-width: 15px;
+  border-color: #293462;
+  width: 7%;
+  border-bottom: 0;
+}
+
+.Hello{
+  width: 35%;
+  margin: 50px auto;
 }
 
 .Skills{
@@ -67,8 +80,8 @@ a{
 }
 
 .profile-pic{
-  border-radius: 50%;
-  width: 100px;
+  border-radius: 10%;
+  width: 200px;
 
 }
 
@@ -79,10 +92,12 @@ a{
 
 .middle-container{
   background-color: #BCCEF8;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 
 .bottom-container{
-  background-color: #BCCEF8;
+  background-color: #293462;
   padding-top: 20px;
 }
 
@@ -96,10 +111,15 @@ a{
   top: 250px;
 }
 
+.contact-message{
+  width: 40%;
+  margin: 50px auto;
+}
+
 .surname{
   margin-bottom: 0;
   padding-bottom: 20px;
-  color: #A084CA;
+  color: #FAF7F0;
 
 }
 
@@ -116,9 +136,9 @@ a{
   text-shadow: 0px 4px 2px #666666;
   font-family: Courier New;
   font-size: 20px;
-  padding: 0px 20px 10px 20px;
   text-decoration: none;
-  padding-bottom: 10px;
+  padding-bottom: none;
+  margin-bottom: 150px;
 }
 
 .btn:hover {
