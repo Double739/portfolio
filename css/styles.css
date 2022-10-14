@@ -124,25 +124,20 @@ hr{
 
 }
 
-.btn {
-  background: #3498db;
-  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
-  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
-  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
-  background-image: -o-linear-gradient(top, #3498db, #2980b9);
-  background-image: linear-gradient(to bottom, #3498db, #2980b9);
-  -webkit-border-radius: 35;
-  -moz-border-radius: 35;
-  border-radius: 35px;
-  text-shadow: 0px 4px 2px #666666;
+btn {
+  -webkit-border-radius: 13;
+  -moz-border-radius: 13;
+  border-radius: 13px;
   font-family: Courier New;
+  color: #ffffff;
   font-size: 20px;
+  background: #91aad6;
+  padding: 10px 7px 10px 7px;
+  border: solid #7dabc4 2px;
   text-decoration: none;
-  padding-bottom: none;
-  margin-bottom: 150px;
 }
 
 .btn:hover {
-  background: #3cb0fd;
+  background: #1b5980;
   text-decoration: none;
-}}
+}
